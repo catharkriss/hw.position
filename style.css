@@ -1,0 +1,165 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(images/bg-picture.png);
+    background-repeat: no-repeat;
+    background-position: 900px 150px;
+    background-attachment: fixed;
+}
+
+.divider {
+    width: 100px;
+    height: 8px;
+    color: black;
+    background-color: black;
+
+}
+
+.container {
+    width: 100%;
+    max-width: 1440px;
+    /* margin-left: auto;
+    margin-right: auto; */
+    padding-left: 120px;
+    padding-right: 120px;
+  }
+
+.header__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 13px;
+    position: fixed;
+    top: 0;
+}
+
+.link {
+    color: black;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.navigation-list-item {
+    font-family: "Staatliches", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 22px;
+    text-transform: uppercase;
+    line-height: 27.5px;
+}
+
+.lang {
+    font-family: "Farro", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 22px;
+    font-optical-sizing: auto;
+    font-variation-settings: 87.5;
+    line-height: 18px;
+    text-transform: uppercase;
+}
+
+.navigation-list {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    gap: 10px;
+}
+
+
+.wrapper .side-bar {
+    position: fixed;
+    left: 120px;
+    top: 135px;
+    width: 385px;
+    height: 100vh;
+
+}
+
+.side-bar__item {
+    font-family: "Francois One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 36px;
+    line-height: 48px;
+    text-transform: uppercase;
+    padding-bottom: 80px;
+    color: black;
+    text-decoration: none;
+}
+
+.side-bar__items {
+    list-style: none;
+    padding-bottom: 80px;
+}
+
+.side-bar__items li {
+    margin-bottom: 80px;
+    border-bottom: 1px solid rgb(116, 115, 115);
+}
+
+
+.content__container {
+    margin-top: 70px;
+    margin-bottom: 90px;
+    width: 785px;
+    margin-left: 535px;
+    margin-top: 150px;
+}
+
+.chapter__title {
+    font-family: "Francois One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 36px;
+    line-height: 48px;
+    text-transform: uppercase;
+    padding-top: 20px;
+    padding-bottom: 40px;
+    /* padding-top: 70px; */
+}
+
+.sup {
+    font-family: "Farro", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 30px;
+    text-transform: none;
+}
+
+
+.chapter__text {
+    font-family: "PT Sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 26px;
+    line-height: 48px;
+    padding-bottom: 70px;
+}
+
+.ext-link {
+    color: black;
+    cursor: pointer;
+}
+
+.text--itl {
+    font-style: italic;
+}
+
+.text--bold {
+    font-weight: bold;
+}
+
+.text--color {
+    background-color: rgb(211, 201, 201);
+}
+
+.chapter-three > p {
+    padding-bottom: 40px;
+}
